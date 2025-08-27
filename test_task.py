@@ -28,7 +28,6 @@ FIELD_MOJE_KONTO.click()
 wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, "form.js-register-form.is-active")))
 
 EMAIL_INPUT = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, "form.js-register-form.is-active input[name='email']")))
-#EMAIL_INPUT = wait.until(EC.visibility_of_element_located((By.XPATH, "//input[@name='email']")))
 EMAIL_INPUT.send_keys("yifedod537@litepax.com")
 
 PASSWORD_INPUT = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, "form.js-register-form.is-active input[name='password']")))
